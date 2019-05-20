@@ -1,0 +1,56 @@
+/* transition all ease linear ease-in ease-out ease-in-out */
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+.compu-out,
+.celu-out,
+.camara-out {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 250px;
+  height: 335px;
+  transition: all 0.5s;
+  margin-top: 15px;
+}
+.compu-out:hover,
+.celu-out:hover,
+.camara-out:hover {
+  box-shadow: 1px 1px 15px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-7px);
+}
+.compu,
+.celu,
+.camara {
+  background-color: white;
+  /* width: 250px; */
+  height: 240px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.compu img,
+.celu img,
+.camara img {
+  width: 100%;
+  height: auto;
+  margin: 25px 0;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+.titulo {
+  color: rgb(61, 61, 61);
+  font-size: 18px;
+}
+.texto-compu,
+.texto-celu,
+.texto-camara {
+  margin-left: 5px;
+}
